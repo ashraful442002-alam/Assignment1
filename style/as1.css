@@ -1,0 +1,45 @@
+.nav-container {
+  padding: 16px 24px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+    margin: 16px 120px 0px;
+    margin-left: ;
+   
+    
+    
+}
+ .menu {
+    
+    display: flex;
+    gap: 32px;
+ }
+ .menu a{
+      
+     color: #000000;
+     font-size: 16px;
+     font-weight: 600px;
+     text-decoration: none;
+     line-height: 125%;
+     
+}
+
+.btn {
+  background-color: #469165;   
+  border: none;
+  padding: 16px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn a {
+  color: white;              
+  text-decoration: none;      
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
