@@ -169,7 +169,6 @@ h1 {
   
 }
 
-/* Cards */
 .cards {
   display: flex;
   margin-top: 44px ;
@@ -212,3 +211,68 @@ h1 {
   line-height: 20px;
   color: #627382;
 }
+
+#solution-container{
+  display: flex;
+  padding: 120px;
+  gap: 60px;
+}
+
+#solution-container .section-solution{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.left img{
+  border: 1px solid rgba(222, 203, 203, 0.38);
+  box-shadow: #908c8ccd;
+  border: 12px;
+}
+
+.section-solution h5{
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+  color: #469165;
+}
+
+#solution-container .section-solution .right h2{
+  font-size: 48px;
+  font-weight: bold;
+  columns: #001931;
+} 
+
+#solution-container .section-solution .right p{
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  width: 700px;
+}
+
+
+.feature-list {
+  list-style: none; /* default dot remove */
+  padding: 0;
+  margin: 0;
+}
+
+.lisitem {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding-bottom: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #001931;
+}
+
+.lisitem .icon {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 16px;
+}
+
+
